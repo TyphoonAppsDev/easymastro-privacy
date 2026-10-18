@@ -166,15 +166,25 @@ I feedback ancora pendenti e non inviati possono essere eliminati localmente.
 
 La partecipazione al programma tester di EasyMastro è volontaria.
 
-L'adesione può comportare l'invio al backend EasyMastro delle informazioni tecniche necessarie alla gestione del programma tester, compreso un identificatore dell'installazione.
+Per aderire viene richiesto un **nome o nickname tester**. Non è necessario utilizzare il proprio nome reale e non è richiesta un'email personale per l'adesione.
 
-EasyMastro non richiede la creazione di username o password per aderire al programma tester.
+Il nome o nickname scelto viene trasmesso al backend EasyMastro ed è utilizzato esclusivamente per riconoscere il tester nell'ambito del programma.
 
-Durante la partecipazione possono essere effettuati check-in tecnici periodici necessari per verificare lo stato dell'installazione tester.
+Il nome o nickname deve essere composto da almeno 2 e non più di 30 caratteri.
+
+L'adesione può inoltre comportare l'invio al backend EasyMastro delle informazioni tecniche necessarie alla gestione del programma, compreso un identificatore dell'installazione.
+
+EasyMastro non richiede la creazione di un account remoto, username o password per aderire al programma tester.
+
+Dopo l'adesione possono essere effettuati check-in tecnici periodici necessari a verificare lo stato dell'installazione tester.
+
+I check-in aggiornano una registrazione tester già esistente e non sono utilizzati per creare automaticamente nuove adesioni.
 
 L'uscita dal programma tester produce effetto immediato sul dispositivo.
 
 Se il dispositivo è offline, l'eventuale richiesta di rimozione remota può essere mantenuta temporaneamente sul dispositivo e trasmessa quando torna disponibile una connessione Internet.
+
+Eventuali vecchie registrazioni create prima dell'introduzione del nome o nickname obbligatorio possono risultare prive di tale informazione. In questi casi EasyMastro può richiedere il completamento del nome o nickname senza creare una nuova identità di installazione.
 
 ---
 
@@ -472,6 +482,29 @@ Tra queste, ove applicabili:
 - minimizzazione dei dati nelle notifiche amministrative;
 - limitazione della conservazione dei dati backend.
 
+  ### Protezione locale dell'accesso all'app
+
+EasyMastro può offrire una funzione facoltativa di protezione dell'accesso all'app mediante i sistemi di autenticazione configurati sul dispositivo.
+
+Quando attivata, EasyMastro può richiedere l'autenticazione all'avvio dell'app e nuovamente dopo un periodo di permanenza in background.
+
+L'autenticazione può utilizzare, in base alle capacità e alla configurazione del dispositivo:
+
+- biometria supportata dal sistema operativo;
+- PIN, password o altra credenziale sicura configurata sul dispositivo come metodo alternativo.
+
+EasyMastro non crea né conserva un proprio PIN di sblocco.
+
+EasyMastro non riceve né conserva i dati biometrici dell'utente, le impronte digitali, i modelli biometrici o il PIN/password utilizzati per lo sblocco del dispositivo. La verifica viene gestita dal sistema operativo.
+
+Le informazioni biometriche o le credenziali utilizzate per lo sblocco non vengono inviate al backend EasyMastro.
+
+La funzione è disattivata per impostazione predefinita e può essere attivata volontariamente dall'utente.
+
+Questa protezione limita l'accesso all'interfaccia di EasyMastro ma **non costituisce una cifratura aggiuntiva degli archivi dell'app**.
+
+Non protegge automaticamente file, PDF, backup o altri contenuti già esportati o condivisi fuori da EasyMastro.
+
 Durante lo sviluppo possono essere utilizzate connessioni HTTP esclusivamente verso indirizzi locali o loopback destinati ai test tecnici.
 
 Typhoon Apps non può garantire le modalità di trasporto adottate autonomamente dalle applicazioni scelte dall'utente tramite il sistema di condivisione o da altri servizi esterni non sotto il proprio controllo.
@@ -499,7 +532,8 @@ Ad esempio:
 - senza i dati necessari al programma tester, non sarà possibile parteciparvi;
 - senza fornire un feedback, il relativo messaggio non potrà essere inviato;
 - senza una chiave API valida, quando richiesta, non sarà possibile utilizzare la relativa funzione AI.
-
+- il nome o nickname è obbligatorio esclusivamente per chi sceglie volontariamente di aderire al programma tester; senza tale informazione l'adesione non può essere completata;
+  
 L'utilizzo delle normali funzioni locali dell'app non richiede l'adesione al programma tester.
 
 ---
