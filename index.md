@@ -166,7 +166,7 @@ I feedback ancora pendenti e non inviati possono essere eliminati localmente.
 
 La partecipazione al programma tester di EasyMastro è volontaria.
 
-Per aderire viene richiesto un **nome o nickname tester**. Non è necessario utilizzare il proprio nome reale e non è richiesta un'email personale per l'adesione.
+Nelle versioni aggiornate di EasyMastro, per aderire viene richiesto un nome o nickname tester**. Non è necessario utilizzare il proprio nome reale e non è richiesta un'email personale per l'adesione.
 
 Il nome o nickname scelto viene trasmesso al backend EasyMastro ed è utilizzato esclusivamente per riconoscere il tester nell'ambito del programma.
 
@@ -178,7 +178,7 @@ EasyMastro non richiede la creazione di un account remoto, username o password p
 
 Dopo l'adesione possono essere effettuati check-in tecnici periodici necessari a verificare lo stato dell'installazione tester.
 
-I check-in aggiornano una registrazione tester già esistente e non sono utilizzati per creare automaticamente nuove adesioni.
+Nelle versioni beta precedenti di EasyMastro, la richiesta tecnica di check-in può essere utilizzata anche per completare la prima registrazione al programma tester. Nelle versioni aggiornate, l'adesione iniziale è gestita tramite una registrazione esplicita separata e i check-in successivi aggiornano una registrazione tester già esistente.
 
 L'uscita dal programma tester produce effetto immediato sul dispositivo.
 
